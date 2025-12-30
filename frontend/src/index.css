@@ -1,0 +1,24 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* Mendefinisikan Tema Warna */
+@theme {
+  /* Warna Background */
+  --color-background: #0f172a; /* Slate 900 */
+  --color-surface: #1e293b;    /* Slate 800 */
+  
+  /* Warna Teks */
+  --color-text-main: #f8fafc;  /* Slate 50 */
+  --color-text-muted: #94a3b8; /* Slate 400 */
+
+  /* Warna Aksen/Brand */
+  --color-brand: #6366f1;      /* Indigo 500 */
+  --color-brand-hover: #4f46e5; /* Indigo 600 */
+}
+
+/* Reset dasar */
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-main);
+  font-family: system-ui, -apple-system, sans-serif;
+}
